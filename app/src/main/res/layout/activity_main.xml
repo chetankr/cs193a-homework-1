@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.srane.gradecalculator.MainActivity"
+    android:orientation="vertical"
+    android:background="#960505">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPA Calulator"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class 1: "
+            android:textSize="22dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#ffffff" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grade: "
+            android:textSize="22dp"
+            android:textColor="#ffffff" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/g1"
+            android:textColor="#ffffff"
+            android:maxLength="2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Units: "
+            android:textSize="22dp"
+            android:textColor="#ffffff" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:inputType="number"
+            android:id="@+id/u1"
+            android:textColor="#ffffff"
+            android:maxLength="2"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class 2: "
+            android:textSize="22dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#ffffff" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grade: "
+            android:textSize="22dp"
+            android:textColor="#ffffff" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/g2"
+            android:textColor="#ffffff"
+            android:maxLength="2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Units: "
+            android:textSize="22dp"
+            android:textColor="#ffffff" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:inputType="number"
+            android:id="@+id/u2"
+            android:textColor="#ffffff"
+            android:maxLength="2"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class 3: "
+            android:textSize="22dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#ffffff" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grade: "
+            android:textSize="22dp"
+            android:textColor="#ffffff" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/g3"
+            android:textColor="#ffffff"
+            android:maxLength="2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Units: "
+            android:textSize="22dp"
+            android:textColor="#ffffff" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:inputType="number"
+            android:id="@+id/u3"
+            android:textColor="#ffffff"
+            android:maxLength="2"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class 4: "
+            android:textSize="22dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#ffffff" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grade: "
+            android:textSize="22dp"
+            android:textColor="#ffffff" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/g4"
+            android:textColor="#ffffff"
+            android:maxLength="2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Units: "
+            android:textSize="22dp"
+            android:textColor="#ffffff" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:inputType="number"
+            android:id="@+id/u4"
+            android:textColor="#ffffff"
+            android:maxLength="2"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class 5: "
+            android:textSize="22dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#ffffff" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grade: "
+            android:textSize="22dp"
+            android:textColor="#ffffff" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/g5"
+            android:textColor="#ffffff"
+            android:maxLength="2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Units: "
+            android:textSize="22dp"
+            android:textColor="#ffffff" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:inputType="number"
+            android:id="@+id/u5"
+            android:textColor="#ffffff"
+            android:maxLength="2"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refresh"
+            android:layout_gravity="center"
+            android:onClick="refresh"
+            android:background="#faf5f5"
+            android:textColor="#960505"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate GPA"
+            android:layout_gravity="center"
+            android:onClick="calculateGPA"
+            android:textColor="#960505"
+            android:background="#ffffff"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="80dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPA: "
+            android:textSize="30dp"
+            android:textColor="#ffffff" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:id="@+id/gpa_box"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
